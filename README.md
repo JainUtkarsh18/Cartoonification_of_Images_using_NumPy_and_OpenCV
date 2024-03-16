@@ -47,15 +47,13 @@ Now, prepare a lightened color image to mask with edges at the end to produce a 
 The third parameter is the diameter of the pixel neighborhood, i.e, the number of pixels around a certain pixel which will determine its value. The fourth and Fifth parameter defines signmaColor and sigmaSpace. These parameters are used to give a sigma effect, i.e make an image look vicious and like water paint, removing the roughness in colors. It’s similar to BEAUTIFY or AI effect in cameras of modern mobile phones.
 
 # Step 8: Giving a Cartoon Effect
-let’s combine the two specialties. This will be done using MASKING. Perform bitwise and on two images to mask them.
+let’s combine the two specialties. This will be done using MASKING. Perform bitwise and on two images to mask them, thus giving an cartoon effect. Figure_1.png showas all the transitions.
 
-# Step 9: Plotting all the transitions together
-To plot all the images, first make a list of all the images. The list here is named “images” and contains all the resized images. Now, create axes in a plot and display one-one images in each block on the axis using imshow() method. plt.show() plots the whole plot at once after we plot on each subplot. Figure_1.png showas all the transitions.
-
-# Step 10: Functionally of save button
+# Step 9: Functionally of save button
 Here, the idea is to save the resultant image. For this, we take the old path, and just change the tail (name of the old file) to a new name and store the cartoonified image with a new name in the same folder by appending the new name to the head part of the file.
 
-# Step 11: Make the main window, Make the Cartoonify button in the main window and Make a Save button in the main window.
+# Step 10: Make the main window, Make the Cartoonify button in the main window and Make a Save button in the main window.
 As the step clear its function. We will create an window to push our image inside the model and save it window for converting it.
-# Step 12: Main function to build the tkinter window
-Use top.mainloop() for building tkinter window.
+
+# Step 11: Main function to build the tkinter window
+Use top.mainloop() for building tkinter window. tkinker window is an platform where all the containers in which all other GUI elements are present.
