@@ -1,4 +1,4 @@
-# Cartoonify an Image with OpenCV in Python.
+# Cartoonify an Image using OpenCV and NumPy in Python.
 
 Here, I aim to transform images into its cartoon. Yes, I will make cartoon of the images. Thus, let's build a python application that will transform an image into its cartoon using OpenCV.
 
