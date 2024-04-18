@@ -1,6 +1,6 @@
 # Cartoonification an Image using OpenCV and NumPy in Python.
 
-This Python project aims to provide a simple and efficient way to cartoonify images using various image processing techniques. By applying a combination of edge detection, color quantization, and image filtering, this project can transform regular images into cartoon-like representations.
+This Python project aims to provide a simple and efficient way to cartoonify images using various image processing techniques. By applying a combination of edge detection, color quantization, and image filtering, this project can transform regular images into cartoon like representations.
 
 # Features
 
